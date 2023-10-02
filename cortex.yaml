@@ -1,0 +1,16 @@
+---
+info:
+  title: Chef Firefox Package
+  description: Firefox Chef Cookbook which provides firefox_package and leverages
+    the poise framework
+  x-cortex-git:
+    github:
+      alias: r7org
+      repository: rapid7/chef-firefox-package
+  x-cortex-tag: chef-firefox-package
+  x-cortex-type: service
+  x-cortex-domain-parents:
+  - tag: platform-delivery
+openapi: 3.0.1
+servers:
+- url: "/"
