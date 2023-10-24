@@ -10,7 +10,7 @@ info:
   x-cortex-tag: chef-firefox-package
   x-cortex-type: service
   x-cortex-domain-parents:
-  - tag: platform-delivery
+  - tag: pd-jenkins
 openapi: 3.0.1
 servers:
 - url: "/"
